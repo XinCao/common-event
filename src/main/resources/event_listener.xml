@@ -10,7 +10,7 @@
     <bean id="dispatcher" class="com.xincao.common.event.dispatcher.GameEventDispatcher">
         <constructor-arg ref="internalEventDispatcher" />
     </bean>
-  
+
     <bean id="eventListenerProcessor" class="com.xincao.common.event.processer.EventListenerProcessor">
         <constructor-arg ref="internalEventDispatcher" />
     </bean>
